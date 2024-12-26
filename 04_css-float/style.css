@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    /* word-break: unset; */
+}
+*{
+    box-sizing: border-box;
+}
+
+.container1{
+    background-color: aquamarine;
+}
+
+.container2{
+    background-color: beige;
+}
+
+.container3{
+    background-color: cadetblue;
+}
+
+img{
+    float: left;
+    width: 100px;
+    margin-right: 1rem;
+}
+img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+}
