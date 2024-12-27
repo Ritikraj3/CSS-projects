@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+        <div class="card-container">
+        <div class="circle1 circle"></div>
+        <div class="circle2 circle"></div>
+        <div class="circle3 circle"></div>
+        <div class="card">
+          <div class="card-content">
+            <img class="card-image" src="./javascript course 1.png" alt="image" />
+            <div class="card-text">
+                <div class="tag-heart-container">
+              <div class="tag">Beginner</div>
+                <img class="heart"
+                  src="./Vector1.png"
+                  alt="./Vector 1 (Stroke).png"
+                />
+              </div>
+            <h3 class="card-title" >The Complete JavaScript Course 
+              Zero to Advanced</h3>
+              <p class="card-subtitle">--Ankita kashyap</p>
+              <div class="stars-rating">
+                  <img src="./Star Rating.png" alt="">
+                  <span class="rating-value">4.9</span>
+                  <span class="rating-count">(2.1k)</span>
+              </div>
+          </div>
+          <button class="card-button">
+            <img src="./Vector.png" alt="Vector 1 (Stroke).png">
+            <span>Get Enrolled</span>
+        </button>
+      </div>
+        </div>
+      </div></main>
+
+
+      <script>document.querySelector('.heart').addEventListener('click', function () {
+        this.classList.toggle('liked'); // Add or remove the "liked" class
+    });
+    </script>
+  </body>
 </html>
