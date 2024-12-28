@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top-strip"></div>
+    <div class="container">
+      <div class="profile-card">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="icon-container">
+          <img src="./images/like.svg" alt="like.svg" />
+          <img
+            onclick="navigator.share({url: location.href})"
+            src="./images/share.svg"
+            alt="share.svg"
+          />
+        </div>
+        <div class="profile-content">
+          <div class="avatar-container">
+            <img class="profile-pic" src="./images/profilepic.png" alt="" />
+            <div class="green-dot"></div>
+          </div>
+          <h3 class="card-heading">Ritik raj</h3>
+          <p class="card-subtitle">Frontend Developer</p>
+          <a href="https://github.com/Ritikraj3" class="profile-button"
+            target="_blank">View Full Profile</a
+          >
+          <div class="social-media-icons">
+            <a
+              class="social-media-icon"
+              href="https://instagram.com/ritik.raj_23" target="_blank"
+              ><img
+                class="instagram"
+                src="./images/instagram.svg"
+                alt=""
+            /></a>
+            <a
+              class="social-media-icon"
+              href="https://www.linkedin.com/in/ritik5776/"
+              target="_blank"><img src="./images/linkedin-square.svg" alt=""
+            /></a>
+            <a class="social-media-icon" href="https://t.me/ritikraz"
+              target="_blank"><img src="./images/telegram-square.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
