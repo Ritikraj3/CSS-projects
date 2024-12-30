@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-box{
+    background-color: #39BEF8;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.sub-content-box{
+    background-color: rgb(17,55,72);
+    width: 530px;
+    height: 280px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.button1{
+    background-color: #2DC071;
+    border-radius: 25px;
+    padding-inline: 15px;
+    border: none;
+    margin-top: 50px;
+}
+
+.figma-link{
+    color: #94D2FF;
+    font-weight: 800;
+    letter-spacing: 0.99px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.objectives{
+    color: white;
+}
+
+.cursor{
+    width: 20px;
+}
+
+.icons{
+    background-color: #fff;
+    width: 100%;
+    width: 200px;
+    padding-top: 4px;
+    display: flex;
+    margin: auto;
+    margin-top: 55px;
+    border-radius: 27px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+}
+
+.icons img{
+    width: 30px;
+}
+
+.figma-icon{
+    margin-left: 5px;
+}
