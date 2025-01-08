@@ -7,12 +7,12 @@
  }
  
 
- .checkbox{
+ .switch{
     /* display: none; */
     position: absolute;
  }
 
- .checkbox-container label{
+ .switch-container label{
    border: 1px solid #c2c2c2;
    width: 20px;
    height: 20px;
@@ -24,16 +24,16 @@
    position: relative;
  }
 
- .checkbox-container label:hover{
+ .switch-container label:hover{
    border-color: var(--main-color);
    
  }
 
- .checkbox:checked + label {
+ .switch:checked + label {
    border-color: var(--main-color);
    background-color: var(--main-color);
  }
 
- .checkbox:focus + label, label:active {
+ .switch:focus + label, label:active {
    outline: 2px solid #cfbfff;
  }
