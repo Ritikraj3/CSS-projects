@@ -13,7 +13,6 @@ html, body{
   position: relative;
   animation: hueRotate 21s infinite linear;
 }
-
 .g-group{
   position: absolute;
   width: 1000px;
